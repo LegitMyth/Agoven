@@ -126,6 +126,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7835bce8697408f4d82bd51e872d0034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 8779701658908339344}
-  forwardForce: 1
-  sidewaysForce: 1
+  controller: {fileID: 0}
+  cam: {fileID: 0}
+  jump: {x: 0, y: 0, z: 0}
+  jumpForce: 1
+  speed: 6
+  turnSmoothTime: 0.1
+  isGrounded: 0
